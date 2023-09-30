@@ -1,0 +1,76 @@
+/* Style the popup menu bar trigger button */
+#menuBtn {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	z-index: 10;
+	font-size: 20px;
+    background: rgb(159, 81, 146);
+    border: 4px solid rgb(85 55 115);
+    border-radius: 10px;
+}
+
+/* Style the popup menu bar */
+#menuBar {
+	position: fixed;
+	top: 0;
+	left: -200px;
+	width: 200px;
+	height: 100%;
+	background-color: #333;
+	color: #fff;
+	z-index: 998;
+	transition: left 0.3s ease-in-out;
+    margin-top: 7vh;
+}
+
+/* Style the popup menu bar list items */
+#menuBar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menuBar li {
+	padding: 10px;
+	border-bottom: 1px solid #666;
+}
+
+#menuBar li:last-child {
+	border-bottom: none;
+}
+
+/* Style the popup menu bar links */
+#menuBar a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#menuBar a:hover {
+	color: #f2f2f2;
+}
+
+
+
+/* Style for the background image */
+body {
+	z-index: -1;
+    background-image: url('../img/img1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	/* filter: blur(50px); */
+}
+
+/* Style for the vertical panel */
+/* Style for pannel of the menu */
+.panel {
+    margin-top: 20vh;
+    background-color: rgb(6 6 6 / 91%);
+    color: #fff;
+    padding: 5vw;
+
+}
+p{
+    font-size: 30px;
+}
